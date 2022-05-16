@@ -1,0 +1,28 @@
+.root {
+    -fx-background-image: url("background4.jpg");
+}
+
+.list-view {
+            -fx-background-color: #9ACAF4;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #CAB0E8;
+}
+
+.list-view.list-cell:selected {
+    -fx-background-color: #CAB0E8;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #CAB0E8; -
+    fx-text-fill: white;
+}
+
+.list-view.label {
+            -fx-text-fill: white;
+        }
+.text { -fx-font-smoothing-type: lcd;
+    -fx-font-family: "Broadway";
+    -fx-text-fill: black;}
+
